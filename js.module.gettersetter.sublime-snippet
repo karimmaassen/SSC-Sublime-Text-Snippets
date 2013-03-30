@@ -1,0 +1,64 @@
+<snippet>
+    <content><![CDATA[${1:// x = object
+${3:x}: function( key, value ){
+
+    if ( key ) {
+
+        var t = typeof key;
+
+        if ( t === 'object' ) {
+
+            return _x = \$.extend( {\}, _x, key );
+
+        \} else if ( t === 'string' && value ) {
+
+            var obj = {\};
+            obj[key] = value;
+
+            return _x = \$.extend( {\}, _x, obj );
+
+        \} else if ( t === 'string') {
+
+            return _x[input];
+
+        \} else {
+
+            return false;
+        \}
+
+    \} else {
+
+        return _x;
+    \}
+\}}${2:,
+
+// x = string or number
+${4:x}: function( value ){
+
+    if ( value ) {
+
+        var t = typeof value;
+
+        if ( t === 'string') {
+
+            return _y = value;
+
+        \} else if ( t === 'number') {
+
+            return _y = value;
+
+        \} else {
+
+            return false;
+        \}
+
+    \} else {
+
+        return _y;
+    \}
+\}}
+]]></content>
+    <tabTrigger>module.getset</tabTrigger>
+    <scope>source.js</scope>
+    <description>Module part: Getter / Setter</description>
+</snippet>

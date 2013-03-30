@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+var ${1:Module} = function( options ) {
+
+    var _privateValue   = 10;
+
+    var _private = ( typeof options == 'object' ) ? \$.extend( {}, _defaults, options ) : options;
+
+    function _privateFunction( ) {
+
+        return true;
+    }
+
+    function ${1:Module}() {
+        
+        this._private = _private; // Private only by convention
+        this.instanceValue = 10; // Instance propertie
+    }
+
+    ${1:Module}.prototype = {
+
+        init: function( options ) { 
+
+            var self = this;
+
+            console.log( 'init with options: ', options );
+        },
+
+        machine = {
+
+            speak: function(){
+
+                return 'hello';
+            },
+
+            stop: function(){
+
+                console.log('Stop');
+            }
+        }
+    }
+
+    return new ${1:Module}();
+}
+]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.js</scope>
+    <description>Module + Closure</description>
+</snippet>
