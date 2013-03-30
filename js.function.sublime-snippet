@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+function ${1:name}( ${2:variables} ) {
+
+    ${0:return true;}
+}
+]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>source.js</scope>
+    <description>function() {return true}</description>
+</snippet>
