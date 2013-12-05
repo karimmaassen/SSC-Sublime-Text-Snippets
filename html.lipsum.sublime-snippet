@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dui nisl, lobortis eget turpis nec, faucibus molestie nibh. Mauris sollicitudin erat sem, non pellentesque dolor condimentum et. Nulla et felis tortor. Nunc rhoncus augue nec odio imperdiet condimentum. Integer venenatis egestas velit id aliquet. Quisque sit amet aliquam quam. Nullam non aliquam ligula. Etiam cursus dolor eget mollis gravida. Aliquam erat volutpat. Praesent pulvinar fringilla laoreet. Praesent quis velit pharetra, sollicitudin tortor a, varius nisi. Proin sit amet massa lectus. Quisque eleifend sit amet ipsum quis sagittis.
+
+Mauris sit amet quam at sem interdum dapibus non sit amet libero. Phasellus in dictum mauris, nec convallis enim. Aliquam erat volutpat. Integer in suscipit quam, sed imperdiet elit. Ut ante nisl, adipiscing quis vestibulum quis, eleifend a augue. Sed porta malesuada fringilla. Cras congue odio id turpis ultrices molestie. Ut eleifend posuere diam vel vestibulum. In suscipit varius fringilla. Maecenas volutpat id justo ac fermentum. Aenean porttitor nunc et vulputate ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras blandit sapien a ullamcorper congue. Fusce vestibulum neque et odio malesuada porta. Nulla non eleifend enim.
+
+Nullam interdum nunc tristique, placerat risus at, commodo velit. Morbi odio quam, hendrerit at nisi in, tempor mattis neque. Donec auctor faucibus ligula. Aenean imperdiet, ante non cursus congue, dui neque fringilla ante, ac venenatis arcu justo quis mi. Fusce semper nibh eu mattis facilisis. Mauris ac felis interdum risus suscipit posuere nec non nisi. Nulla aliquam est at augue rutrum, ac dictum est rhoncus. Integer turpis lectus, convallis eget lorem ac, fringilla mattis lorem.
+
+Suspendisse nisi ipsum, tempus a laoreet eu, mollis id orci. Aenean sagittis lobortis tortor, vel dictum enim. In convallis ipsum felis, non sollicitudin nisi feugiat ut. Phasellus sit amet turpis nunc. Integer sed pharetra ante. Maecenas non tempus lorem. Vestibulum tempus sapien id rutrum faucibus. Nunc et aliquam dui, in bibendum felis. Proin iaculis enim sed lectus ultrices faucibus. Proin posuere eget erat in tempor. Nam dignissim convallis mollis. Donec vel dapibus enim. Donec orci erat, ullamcorper et faucibus quis, interdum eget dolor. Donec et commodo risus, sed sollicitudin quam.
+
+Nulla facilisi. Maecenas congue consectetur quam ut dapibus. Cras a congue sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in ligula ut libero feugiat malesuada. Pellentesque et metus dignissim elit tristique porta. Cras lacinia, risus quis congue blandit, lacus sem tempor quam, in semper massa lorem a nisl. Sed molestie ipsum eros, ac accumsan nulla lacinia vitae. Aliquam et massa eget metus faucibus ornare ornare et mi. Donec vel erat tellus. Mauris rhoncus elementum erat, suscipit pharetra nisl ornare nec.
+]]></content>
+    <tabTrigger>lipsum</tabTrigger>
+    <scope>text.html</scope>
+    <description>Lorem Ipsum</description>
+</snippet>
